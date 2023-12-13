@@ -195,7 +195,7 @@ python3 file_manipulator.py reverse ../python_practice/input.txt ../python_pract
 | reverse | inputpathにあるファイルを受け取り、outputpathにinputpathの内容を逆にした新しいファイルを作成します。 |
 | copy | inputpathにあるファイルのコピーを作成し、outputpathとして保存します。 |
 | duplicate-contents | inputpathにあるファイルの内容を読み込み、その内容を複製し、複製されたinputにn回複製します。 |
-| replace-string | inputpathにあるファイルの内容から文字列'needle'を検索し、'needle'のすべてを'newstring'に置き換える |
+| replace-string | inputpathにあるファイルの内容から文字列'needle'を検索し、'needle'を'newstring'に置き換えます。 |
 | エラーハンドリング | コマンドが正しく入力されていない場合は、`Command not found...`というメッセージが表示されて終了します。<br>コマンドの入力は、認識されていないため、ファイルは生成されません。 |
 
 ## 📜作成の経緯
