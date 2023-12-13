@@ -119,12 +119,12 @@ cd File-Manipulator-Program
 一通りの手順のイメージは[デモ](#デモ)を参考にしてください。
 
 1. ファイルを用意する。<br>インプットとなるファイルを作成してください。<br>ファイルには、文章などのテキストが入力されている必要があります。<br>今回は、input.txtというファイルを作成し、`Hello world!`という文字を入力しておきました。
-2. スクリプトを実行する。<br>スクリプトを利用する際は、ターミナルに[※1](#※1)のようなコマンドを入力します。<br>今回は、ファイル内の文字列を反転させたファイルが欲しかったので、[※2](#※2)のようにコマンドを入力しました。
+2. スクリプトを実行する。<br>スクリプトを利用する際は、ターミナルに[コマンドの入力例](#コマンドの入力例)のようなコマンドを入力します。<br>今回は、ファイル内の文字列を反転させたファイルが欲しかったので、[コマンドの入力使用例](#コマンドの入力使用例)のようにコマンドを入力しました。
 3. 生成されたファイルを確認する。<br>output.txtというファイル内の文字列が反転されたファイルが生成されていました。
 
 ### 手順2の補足
-※1.
-#### reverse
+#### コマンドの入力例
+##### reverse
 ```
 python3 file_manipulator.py reverse [inputpath] [outputpath]
 ```
@@ -133,7 +133,7 @@ python3 file_manipulator.py reverse [inputpath] [outputpath]
 | `[inputpath]`| 手順1.で用意したファイルのパスを入力します。<br>パスには、用意したファイルの名前まで含めてください。 |
 | `[outputpath]`| スクリプトを利用することで、生成されるファイルのパスを入力します。<br>パスには、生成されるファイルの名前まで含めてください。 |
 
-#### copy
+##### copy
 ```
 python3 file_manipulator.py copy [inputpath] [outputpath]
 ```
@@ -142,7 +142,7 @@ python3 file_manipulator.py copy [inputpath] [outputpath]
 | `[inputpath]`| 手順1.で用意したファイルのパスを入力します。<br>パスには、用意したファイルの名前まで含めてください。 |
 | `[outputpath]`| スクリプトを利用することで、生成されるファイルのパスを入力します。<br>パスには、生成されるファイルの名前まで含めてください。 |
 
-#### duplicate-contents
+##### duplicate-contents
 ```
 python3 file_manipulator.py duplicate-contents [inputpath] [n]
 ```
@@ -152,7 +152,7 @@ python3 file_manipulator.py duplicate-contents [inputpath] [n]
 | `[inputpath]`| 手順1.で用意したファイルのパスを入力します。<br>パスには、用意したファイルの名前まで含めてください。 |
 | `[n]`| ファイルの内容を読み込み、n回複製します。 |
 
-#### replace-string
+##### replace-string
 ```
 python3 file_manipulator.py replace-string [inputpath] [needle] [newstring]
 ```
@@ -163,7 +163,7 @@ python3 file_manipulator.py replace-string [inputpath] [needle] [newstring]
 | `[needle]`| 用意したファイル内に存在する文字列で、これから置換したい文字列を入力します。 |
 | `[newstring]`| 置換後の文字列を入力します。 |
 
-※2.
+#### コマンドの入力使用例
 ```
 python3 file_manipulator.py reverse ../python_practice/input.txt ../python_practice/output.txt
 ```
