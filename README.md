@@ -185,6 +185,13 @@ python3 file_manipulator.py reverse ../python_practice/input.txt ../python_pract
 <tr>
   <td>VirtualBox</td>
 </tr>
+<tr>
+  <td rowspan=2>その他</td>
+  <td>Git</td>
+</tr>
+<tr>
+  <td>Github</td>
+</tr>
 </table>
 
 ## 👀機能一覧
